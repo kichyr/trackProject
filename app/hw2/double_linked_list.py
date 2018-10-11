@@ -1,5 +1,5 @@
 """double list structure"""
-class Item:
+class Item(object):
     """Elem of List"""
     def __init__(self, elem, next_item=None, prev_item=None):
         self.elem = elem
@@ -14,7 +14,7 @@ class Item:
         """null the elem"""
         self.elem = None
 
-class Double_Linked_List:
+class DoubleLinkedList(object):
     """our double linked list class"""
     def __init__(self):
         """Constructor"""
