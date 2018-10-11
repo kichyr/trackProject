@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from DBList import Double_Linked_List
+from double_linked_list import Double_Linked_List
 
 class  Test_Double_Linked_List:
     def test_negative(self):
